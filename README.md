@@ -19,11 +19,7 @@ ASTRA is a small starter web app that shows how HTML, CSS, JavaScript, and Pytho
 | JavaScript (`static/js/app.js`) | Form submit and API call |
 | Python / Flask (`app.py`) | Serves the page and greeting API |
 
-## Run
 
-```powershell
-python -m pip install -r requirements.txt
-python app.py
-```
+
 
 
