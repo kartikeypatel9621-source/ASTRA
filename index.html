@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASTRA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body>
+    <main class="card">
+      <p class="eyebrow">Python + HTML + CSS + JS</p>
+      <h1>ASTRA</h1>
+      <p class="lede">A tiny web app: the page is static front-end, the greeting comes from Flask.</p>
+
+      <form id="hello-form">
+        <label for="name">Your name</label>
+        <div class="row">
+          <input id="name" name="name" type="text" placeholder="Ada" autocomplete="name" />
+          <button type="submit">Say hello</button>
+        </div>
+      </form>
+
+      <p id="message" class="message" hidden></p>
+      <p id="meta" class="meta" hidden></p>
+    </main>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  </body>
+</html>
